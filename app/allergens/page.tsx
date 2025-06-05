@@ -15,7 +15,7 @@ export default function AllergensPage() {
     <>
       <Navbar title="Listă Alergeni" />
       <main className="flex justify-center p-4">
-        <PdfFrame file="/nalergeni.pdf" />
+        <PdfFrame file="/alergeni.pdf" />
       </main>
     </>
   );
