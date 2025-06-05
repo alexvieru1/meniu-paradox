@@ -1,7 +1,12 @@
 'use client';
 
 import Navbar from "@/components/navbar";
-import PdfFrame from "@/components/pdf-frame";
+import dynamic from "next/dynamic";
+
+const PdfFrame = dynamic(
+  () => import('@/components/pdf-frame'), // 👈 path above
+  { ssr: false }                              // 🔑
+);
 
 
 
