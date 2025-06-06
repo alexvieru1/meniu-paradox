@@ -20,7 +20,7 @@ export default function MenuSlider({ pages }: { pages: Page[] }) {
         spaceBetween={16}
         slidesPerView={1}
         centeredSlides
-        className="w-full max-w-screen-md mt-40"
+        className="w-full max-w-screen-md mt-32"
       >
         {pages.map(({ src, w, h }, i) => (
           <SwiperSlide key={i}>
