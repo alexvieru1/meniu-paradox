@@ -18,13 +18,17 @@
     "lucide-react": "^0.513.0",
     "next": "14.2.29",
     "pdfjs-dist": "^3.4.120",
+    "photoswipe": "^5.4.4",
     "react": "^18",
     "react-dom": "^18",
+    "swiper": "^11.2.8",
     "tailwind-merge": "^3.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "yet-another-react-lightbox": "^3.23.2"
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/photoswipe": "^4.1.6",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8",
