@@ -16,7 +16,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^12.16.0",
     "lucide-react": "^0.513.0",
-    "next": "14.2.29",
+    "next": "14.2.35",
     "pdfjs-dist": "^3.4.120",
     "photoswipe": "^5.4.4",
     "react": "^18",
